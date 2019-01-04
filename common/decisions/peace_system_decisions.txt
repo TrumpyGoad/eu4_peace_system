@@ -1,0 +1,5652 @@
+peace_system = {	
+	peace_out_GER = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = GER }
+			hidden_trigger = { is_ai = no }
+			has_war_with = GER
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			GER = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = GER
+			#GER
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_GER
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				GER = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_ENG = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = ENG }
+			hidden_trigger = { is_ai = no }
+			has_war_with = ENG
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			ENG = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = ENG
+			#ENG
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_ENG
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				ENG = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_SOV = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = SOV }
+			hidden_trigger = { is_ai = no }
+			has_war_with = SOV
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			SOV = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = SOV
+			#SOV
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_SOV
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				SOV = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_SWE = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = SWE }
+			hidden_trigger = { is_ai = no }
+			has_war_with = SWE
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			SWE = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = SWE
+			#SWE
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_SWE
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				SWE = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_FRA = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = FRA }
+			hidden_trigger = { is_ai = no }
+			has_war_with = FRA
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			FRA = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = FRA
+			#FRA
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_FRA
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				FRA = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_LUX = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = LUX }
+			hidden_trigger = { is_ai = no }
+			has_war_with = LUX
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			LUX = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = LUX
+			#LUX
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_LUX
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				LUX = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_BEL = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = BEL }
+			hidden_trigger = { is_ai = no }
+			has_war_with = BEL
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			BEL = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = BEL
+			#BEL
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_BEL
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				BEL = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_HOL = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = HOL }
+			hidden_trigger = { is_ai = no }
+			has_war_with = HOL
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			HOL = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = HOL
+			#HOL
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_HOL
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				HOL = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_CZE = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = CZE }
+			hidden_trigger = { is_ai = no }
+			has_war_with = CZE
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			CZE = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = CZE
+			#CZE
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_CZE
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				CZE = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_POL = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = POL }
+			hidden_trigger = { is_ai = no }
+			has_war_with = POL
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			POL = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = POL
+			#POL
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_POL
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				POL = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_AUS = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = AUS }
+			hidden_trigger = { is_ai = no }
+			has_war_with = AUS
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			AUS = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = AUS
+			#AUS
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_AUS
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				AUS = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_LIT = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = LIT }
+			hidden_trigger = { is_ai = no }
+			has_war_with = LIT
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			LIT = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = LIT
+			#LIT
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_LIT
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				LIT = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_EST = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = EST }
+			hidden_trigger = { is_ai = no }
+			has_war_with = EST
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			EST = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = EST
+			#EST
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_EST
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				EST = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_LAT = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = LAT }
+			hidden_trigger = { is_ai = no }
+			has_war_with = LAT
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			LAT = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = LAT
+			#LAT
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_LAT
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				LAT = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_SPR = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = SPR }
+			hidden_trigger = { is_ai = no }
+			has_war_with = SPR
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			SPR = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = SPR
+			#SPR
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_SPR
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				SPR = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_ITA = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = ITA }
+			hidden_trigger = { is_ai = no }
+			has_war_with = ITA
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			ITA = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = ITA
+			#ITA
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_ITA
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				ITA = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_ROM = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = ROM }
+			hidden_trigger = { is_ai = no }
+			has_war_with = ROM
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			ROM = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = ROM
+			#ROM
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_ROM
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				ROM = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_YUG = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = YUG }
+			hidden_trigger = { is_ai = no }
+			has_war_with = YUG
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			YUG = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = YUG
+			#YUG
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_YUG
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				YUG = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_SER = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = SER }
+			hidden_trigger = { is_ai = no }
+			has_war_with = SER
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			SER = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = SER
+			#SER
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_SER
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				SER = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_SWI = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = SWI }
+			hidden_trigger = { is_ai = no }
+			has_war_with = SWI
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			SWI = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = SWI
+			#SWI
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_SWI
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				SWI = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_TUR = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = TUR }
+			hidden_trigger = { is_ai = no }
+			has_war_with = TUR
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			TUR = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = TUR
+			#TUR
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_TUR
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				TUR = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_GRE = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = GRE }
+			hidden_trigger = { is_ai = no }
+			has_war_with = GRE
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			GRE = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = GRE
+			#GRE
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_GRE
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				GRE = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_ALB = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = ALB }
+			hidden_trigger = { is_ai = no }
+			has_war_with = ALB
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			ALB = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = ALB
+			#ALB
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_ALB
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				ALB = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_NOR = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = NOR }
+			hidden_trigger = { is_ai = no }
+			has_war_with = NOR
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			NOR = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = NOR
+			#NOR
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_NOR
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				NOR = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_DEN = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = DEN }
+			hidden_trigger = { is_ai = no }
+			has_war_with = DEN
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			DEN = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = DEN
+			#DEN
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_DEN
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				DEN = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_BUL = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = BUL }
+			hidden_trigger = { is_ai = no }
+			has_war_with = BUL
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			BUL = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = BUL
+			#BUL
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_BUL
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				BUL = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_POR = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = POR }
+			hidden_trigger = { is_ai = no }
+			has_war_with = POR
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			POR = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = POR
+			#POR
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_POR
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				POR = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_FIN = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = FIN }
+			hidden_trigger = { is_ai = no }
+			has_war_with = FIN
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			FIN = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = FIN
+			#FIN
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_FIN
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				FIN = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_IRE = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = IRE }
+			hidden_trigger = { is_ai = no }
+			has_war_with = IRE
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			IRE = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = IRE
+			#IRE
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_IRE
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				IRE = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_HUN = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = HUN }
+			hidden_trigger = { is_ai = no }
+			has_war_with = HUN
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			HUN = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = HUN
+			#HUN
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_HUN
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				HUN = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_AFG = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = AFG }
+			hidden_trigger = { is_ai = no }
+			has_war_with = AFG
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			AFG = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = AFG
+			#AFG
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_AFG
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				AFG = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_ARG = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = ARG }
+			hidden_trigger = { is_ai = no }
+			has_war_with = ARG
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			ARG = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = ARG
+			#ARG
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_ARG
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				ARG = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_AST = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = AST }
+			hidden_trigger = { is_ai = no }
+			has_war_with = AST
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			AST = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = AST
+			#AST
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_AST
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				AST = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_BHU = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = BHU }
+			hidden_trigger = { is_ai = no }
+			has_war_with = BHU
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			BHU = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = BHU
+			#BHU
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_BHU
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				BHU = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_BOL = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = BOL }
+			hidden_trigger = { is_ai = no }
+			has_war_with = BOL
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			BOL = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = BOL
+			#BOL
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_BOL
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				BOL = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_BRA = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = BRA }
+			hidden_trigger = { is_ai = no }
+			has_war_with = BRA
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			BRA = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = BRA
+			#BRA
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_BRA
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				BRA = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_CAN = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = CAN }
+			hidden_trigger = { is_ai = no }
+			has_war_with = CAN
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			CAN = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = CAN
+			#CAN
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_CAN
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				CAN = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_CHI = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = CHI }
+			hidden_trigger = { is_ai = no }
+			has_war_with = CHI
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			CHI = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = CHI
+			#CHI
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_CHI
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				CHI = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_CHL = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = CHL }
+			hidden_trigger = { is_ai = no }
+			has_war_with = CHL
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			CHL = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = CHL
+			#CHL
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_CHL
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				CHL = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_COL = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = COL }
+			hidden_trigger = { is_ai = no }
+			has_war_with = COL
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			COL = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = COL
+			#COL
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_COL
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				COL = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_COS = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = COS }
+			hidden_trigger = { is_ai = no }
+			has_war_with = COS
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			COS = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = COS
+			#COS
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_COS
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				COS = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_ECU = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = ECU }
+			hidden_trigger = { is_ai = no }
+			has_war_with = ECU
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			ECU = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = ECU
+			#ECU
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_ECU
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				ECU = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_ELS = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = ELS }
+			hidden_trigger = { is_ai = no }
+			has_war_with = ELS
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			ELS = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = ELS
+			#ELS
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_ELS
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				ELS = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_ETH = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = ETH }
+			hidden_trigger = { is_ai = no }
+			has_war_with = ETH
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			ETH = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = ETH
+			#ETH
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_ETH
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				ETH = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_GUA = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = GUA }
+			hidden_trigger = { is_ai = no }
+			has_war_with = GUA
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			GUA = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = GUA
+			#GUA
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_GUA
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				GUA = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_HON = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = HON }
+			hidden_trigger = { is_ai = no }
+			has_war_with = HON
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			HON = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = HON
+			#HON
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_HON
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				HON = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_IRQ = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = IRQ }
+			hidden_trigger = { is_ai = no }
+			has_war_with = IRQ
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			IRQ = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = IRQ
+			#IRQ
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_IRQ
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				IRQ = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_JAP = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = JAP }
+			hidden_trigger = { is_ai = no }
+			has_war_with = JAP
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			JAP = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = JAP
+			#JAP
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_JAP
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				JAP = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_KOR = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = KOR }
+			hidden_trigger = { is_ai = no }
+			has_war_with = KOR
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			KOR = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = KOR
+			#KOR
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_KOR
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				KOR = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_LIB = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = LIB }
+			hidden_trigger = { is_ai = no }
+			has_war_with = LIB
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			LIB = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = LIB
+			#LIB
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_LIB
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				LIB = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_MEX = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = MEX }
+			hidden_trigger = { is_ai = no }
+			has_war_with = MEX
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			MEX = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = MEX
+			#MEX
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_MEX
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				MEX = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_MEX = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = MEX }
+			hidden_trigger = { is_ai = no }
+			has_war_with = MEX
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			MEX = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = MEX
+			#MEX
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_MEX
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				MEX = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_NEP = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = NEP }
+			hidden_trigger = { is_ai = no }
+			has_war_with = NEP
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			NEP = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = NEP
+			#NEP
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_NEP
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				NEP = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_NIC = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = NIC }
+			hidden_trigger = { is_ai = no }
+			has_war_with = NIC
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			NIC = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = NIC
+			#NIC
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_NIC
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				NIC = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_NZL = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = NZL }
+			hidden_trigger = { is_ai = no }
+			has_war_with = NZL
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			NZL = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = NZL
+			#NZL
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_NZL
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				NZL = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_PAN = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = PAN }
+			hidden_trigger = { is_ai = no }
+			has_war_with = PAN
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			PAN = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = PAN
+			#PAN
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_PAN
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				PAN = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_PER = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = PER }
+			hidden_trigger = { is_ai = no }
+			has_war_with = PER
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			PER = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = PER
+			#PER
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_PER
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				PER = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_PHI = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = PHI }
+			hidden_trigger = { is_ai = no }
+			has_war_with = PHI
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			PHI = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = PHI
+			#PHI
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_PHI
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				PHI = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_PRU = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = PRU }
+			hidden_trigger = { is_ai = no }
+			has_war_with = PRU
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			PRU = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = PRU
+			#PRU
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_PRU
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				PRU = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_SAF = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = SAF }
+			hidden_trigger = { is_ai = no }
+			has_war_with = SAF
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			SAF = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = SAF
+			#SAF
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_SAF
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				SAF = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_SAU = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = SAU }
+			hidden_trigger = { is_ai = no }
+			has_war_with = SAU
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			SAU = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = SAU
+			#SAU
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_SAU
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				SAU = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_SIA = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = SIA }
+			hidden_trigger = { is_ai = no }
+			has_war_with = SIA
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			SIA = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = SIA
+			#SIA
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_SIA
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				SIA = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_SIK = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = SIK }
+			hidden_trigger = { is_ai = no }
+			has_war_with = SIK
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			SIK = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = SIK
+			#SIK
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_SIK
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				SIK = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_TIB = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = TIB }
+			hidden_trigger = { is_ai = no }
+			has_war_with = TIB
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			TIB = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = TIB
+			#TIB
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_TIB
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				TIB = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_URG = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = URG }
+			hidden_trigger = { is_ai = no }
+			has_war_with = URG
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			URG = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = URG
+			#URG
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_URG
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				URG = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_VEN = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = VEN }
+			hidden_trigger = { is_ai = no }
+			has_war_with = VEN
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			VEN = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = VEN
+			#VEN
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_VEN
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				VEN = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_YUN = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = YUN }
+			hidden_trigger = { is_ai = no }
+			has_war_with = YUN
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			YUN = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = YUN
+			#YUN
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_YUN
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				YUN = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_USA = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = USA }
+			hidden_trigger = { is_ai = no }
+			has_war_with = USA
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			USA = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = USA
+			#USA
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_USA
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				USA = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_MON = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = MON }
+			hidden_trigger = { is_ai = no }
+			has_war_with = MON
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			MON = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = MON
+			#MON
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_MON
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				MON = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_TAN = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = TAN }
+			hidden_trigger = { is_ai = no }
+			has_war_with = TAN
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			TAN = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = TAN
+			#TAN
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_TAN
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				TAN = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_PAR = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = PAR }
+			hidden_trigger = { is_ai = no }
+			has_war_with = PAR
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			PAR = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = PAR
+			#PAR
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_PAR
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				PAR = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_CUB = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = CUB }
+			hidden_trigger = { is_ai = no }
+			has_war_with = CUB
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			CUB = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = CUB
+			#CUB
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_CUB
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				CUB = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_DOM = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = DOM }
+			hidden_trigger = { is_ai = no }
+			has_war_with = DOM
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			DOM = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = DOM
+			#DOM
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_DOM
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				DOM = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_HAI = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = HAI }
+			hidden_trigger = { is_ai = no }
+			has_war_with = HAI
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			HAI = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = HAI
+			#HAI
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_HAI
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				HAI = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_YEM = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = YEM }
+			hidden_trigger = { is_ai = no }
+			has_war_with = YEM
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			YEM = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = YEM
+			#YEM
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_YEM
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				YEM = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_OMA = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = OMA }
+			hidden_trigger = { is_ai = no }
+			has_war_with = OMA
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			OMA = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = OMA
+			#OMA
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_OMA
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				OMA = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_SLO = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = SLO }
+			hidden_trigger = { is_ai = no }
+			has_war_with = SLO
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			SLO = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = SLO
+			#SLO
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_SLO
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				SLO = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_RAJ = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = RAJ }
+			hidden_trigger = { is_ai = no }
+			has_war_with = RAJ
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			RAJ = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = RAJ
+			#RAJ
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_RAJ
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				RAJ = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_CRO = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = CRO }
+			hidden_trigger = { is_ai = no }
+			has_war_with = CRO
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			CRO = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = CRO
+			#CRO
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_CRO
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				CRO = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_GXC = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = GXC }
+			hidden_trigger = { is_ai = no }
+			has_war_with = GXC
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			GXC = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = GXC
+			#GXC
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_GXC
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				GXC = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_PRC = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = PRC }
+			hidden_trigger = { is_ai = no }
+			has_war_with = PRC
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			PRC = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = PRC
+			#PRC
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_PRC
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				PRC = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_SHX = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = SHX }
+			hidden_trigger = { is_ai = no }
+			has_war_with = SHX
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			SHX = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = SHX
+			#SHX
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_SHX
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				SHX = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_XSM = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = XSM }
+			hidden_trigger = { is_ai = no }
+			has_war_with = XSM
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			XSM = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = XSM
+			#XSM
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_XSM
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				XSM = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_ICE = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = ICE }
+			hidden_trigger = { is_ai = no }
+			has_war_with = ICE
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			ICE = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = ICE
+			#ICE
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_ICE
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				ICE = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_LEB = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = LEB }
+			hidden_trigger = { is_ai = no }
+			has_war_with = LEB
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			LEB = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = LEB
+			#LEB
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_LEB
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				LEB = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_JOR = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = JOR }
+			hidden_trigger = { is_ai = no }
+			has_war_with = JOR
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			JOR = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = JOR
+			#JOR
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_JOR
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				JOR = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_SYR = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = SYR }
+			hidden_trigger = { is_ai = no }
+			has_war_with = SYR
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			SYR = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = SYR
+			#SYR
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_SYR
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				SYR = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_EGY = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = EGY }
+			hidden_trigger = { is_ai = no }
+			has_war_with = EGY
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			EGY = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = EGY
+			#EGY
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_EGY
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				EGY = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_LBA = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = LBA }
+			hidden_trigger = { is_ai = no }
+			has_war_with = LBA
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			LBA = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = LBA
+			#LBA
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_LBA
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				LBA = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_WGR = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = WGR }
+			hidden_trigger = { is_ai = no }
+			has_war_with = WGR
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			WGR = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = WGR
+			#WGR
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_WGR
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				WGR = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_DDR = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = DDR }
+			hidden_trigger = { is_ai = no }
+			has_war_with = DDR
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			DDR = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = DDR
+			#DDR
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_DDR
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				DDR = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_PAL = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = PAL }
+			hidden_trigger = { is_ai = no }
+			has_war_with = PAL
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			PAL = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = PAL
+			#PAL
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_PAL
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				PAL = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_ISR = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = ISR }
+			hidden_trigger = { is_ai = no }
+			has_war_with = ISR
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			ISR = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = ISR
+			#ISR
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_ISR
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				ISR = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_VIN = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = VIN }
+			hidden_trigger = { is_ai = no }
+			has_war_with = VIN
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			VIN = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = VIN
+			#VIN
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_VIN
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				VIN = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_CAM = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = CAM }
+			hidden_trigger = { is_ai = no }
+			has_war_with = CAM
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			CAM = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = CAM
+			#CAM
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_CAM
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				CAM = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_MAL = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = MAL }
+			hidden_trigger = { is_ai = no }
+			has_war_with = MAL
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			MAL = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = MAL
+			#MAL
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_MAL
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				MAL = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_INS = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = INS }
+			hidden_trigger = { is_ai = no }
+			has_war_with = INS
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			INS = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = INS
+			#INS
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_INS
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				INS = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_LAO = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = LAO }
+			hidden_trigger = { is_ai = no }
+			has_war_with = LAO
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			LAO = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = LAO
+			#LAO
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_LAO
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				LAO = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_MNT = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = MNT }
+			hidden_trigger = { is_ai = no }
+			has_war_with = MNT
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			MNT = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = MNT
+			#MNT
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_MNT
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				MNT = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_UKR = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = UKR }
+			hidden_trigger = { is_ai = no }
+			has_war_with = UKR
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			UKR = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = UKR
+			#UKR
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_UKR
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				UKR = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_GEO = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = GEO }
+			hidden_trigger = { is_ai = no }
+			has_war_with = GEO
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			GEO = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = GEO
+			#GEO
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_GEO
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				GEO = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_KAZ = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = KAZ }
+			hidden_trigger = { is_ai = no }
+			has_war_with = KAZ
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			KAZ = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = KAZ
+			#KAZ
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_KAZ
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				KAZ = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_AZR = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = AZR }
+			hidden_trigger = { is_ai = no }
+			has_war_with = AZR
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			AZR = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = AZR
+			#AZR
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_AZR
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				AZR = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_ARM = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = ARM }
+			hidden_trigger = { is_ai = no }
+			has_war_with = ARM
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			ARM = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = ARM
+			#ARM
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_ARM
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				ARM = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_BLR = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = BLR }
+			hidden_trigger = { is_ai = no }
+			has_war_with = BLR
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			BLR = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = BLR
+			#BLR
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_BLR
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				BLR = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_ANG = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = ANG }
+			hidden_trigger = { is_ai = no }
+			has_war_with = ANG
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			ANG = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = ANG
+			#ANG
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_ANG
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				ANG = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_MZB = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = MZB }
+			hidden_trigger = { is_ai = no }
+			has_war_with = MZB
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			MZB = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = MZB
+			#MZB
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_MZB
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				MZB = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_ZIM = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = ZIM }
+			hidden_trigger = { is_ai = no }
+			has_war_with = ZIM
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			ZIM = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = ZIM
+			#ZIM
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_ZIM
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				ZIM = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_COG = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = COG }
+			hidden_trigger = { is_ai = no }
+			has_war_with = COG
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			COG = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = COG
+			#COG
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_COG
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				COG = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_KEN = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = KEN }
+			hidden_trigger = { is_ai = no }
+			has_war_with = KEN
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			KEN = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = KEN
+			#KEN
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_KEN
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				KEN = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_PAK = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = PAK }
+			hidden_trigger = { is_ai = no }
+			has_war_with = PAK
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			PAK = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = PAK
+			#PAK
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_PAK
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				PAK = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_BOT = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = BOT }
+			hidden_trigger = { is_ai = no }
+			has_war_with = BOT
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			BOT = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = BOT
+			#BOT
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_BOT
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				BOT = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+	peace_out_MAN = {
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_remove = 7
+		
+		allowed = {
+			always = yes
+		}
+		
+		available = { 
+			
+			NOT = { tag = MAN }
+			hidden_trigger = { is_ai = no }
+			has_war_with = MAN
+
+			num_of_controlled_states > 1
+
+			NOT = { has_country_flag = peace_in_progress }
+			
+			MAN = {
+				NOT = { has_country_flag = peace_in_progress }
+				is_subject = no
+			}
+			is_subject = no
+		}
+		
+		visible = {
+			has_war_with = MAN
+			#MAN
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = tt_sue_peace
+			hidden_effect = {
+				#set_country_flag = seeking_peace_with_MAN
+		
+				country_event = { id = peace_system.1 }
+				set_country_flag = peace_in_progress
+				MAN = {
+					set_country_flag = receiving_peace_from_@ROOT
+					set_country_flag = peace_in_progress
+				}
+			}
+		}
+	}
+}
