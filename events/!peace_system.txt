@@ -1855,3 +1855,38 @@ country_event = {
 		FROM = { country_event = { days = 1 id = peace_system.14 } }
 	}
 }
+#AUTO VARIABLE
+country_event = {
+	id = peace_system.14
+	title = peace_system.14.t
+	desc = peace_system.14.d
+	picture = CORRUPTION_countryeventPicture
+	
+	is_triggered_only = yes
+
+	
+	option = {
+		name=peace_system.9.a
+		country_event = { days = 0 id = peace_system.6 }
+		trigger = {
+			NOT = { 
+				has_country_flag = offering_monetary_sum
+			}
+		}
+		set_country_flag = offering_war_reparations
+	}
+	option = {
+		name=peace_system.9.b
+		country_event = { days = 0 id = peace_system.6 }
+		trigger = {
+			NOT = { 
+				has_country_flag = offering_war_reparations
+			}
+		}
+		set_country_flag = offering_monetary_sum
+	}
+	option = {
+		name=peace_system.5.c
+		country_event = { days = 0 id = peace_system.6 }
+	}
+}
